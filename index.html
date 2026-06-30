@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DocuTrust AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>DocuTrust AI</h1>
+
+<div class="container">
+
+    <input type="file" id="pdf">
+
+    <button onclick="uploadPDF()">
+        Upload PDF
+    </button>
+
+    <br><br>
+
+    <textarea
+        id="question"
+        placeholder="Ask a question">
+    </textarea>
+
+    <button onclick="askQuestion()">
+        Ask AI
+    </button>
+
+    <div id="answer"></div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

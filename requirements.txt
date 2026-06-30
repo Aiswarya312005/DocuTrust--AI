@@ -1,0 +1,7 @@
+flask
+google-generativeai
+chromadb
+langchain
+langchain-community
+pypdf
+sentence-transformers
